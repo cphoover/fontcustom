@@ -1,0 +1,54 @@
+{
+  "checksum": {
+    "previous": "d0ac8766c37b6a64946c233a6e41b6cb499444ce8343e38c4d17eeb3ff8be0df",
+    "current": "d0ac8766c37b6a64946c233a6e41b6cb499444ce8343e38c4d17eeb3ff8be0df"
+  },
+  "fonts": [
+    "./out/assets/fonts/ua_font_d0ac8766c37b6a64946c233a6e41b6cb.ttf",
+    "./out/assets/fonts/ua_font_d0ac8766c37b6a64946c233a6e41b6cb.svg",
+    "./out/assets/fonts/ua_font_d0ac8766c37b6a64946c233a6e41b6cb.woff",
+    "./out/assets/fonts/ua_font_d0ac8766c37b6a64946c233a6e41b6cb.eot"
+  ],
+  "glyphs": {
+    "circle-icon": {
+      "codepoint": 61696,
+      "source": "icon-test/circle-icon.svg"
+    },
+    "square-icon": {
+      "codepoint": 61697,
+      "source": "icon-test/square-icon.svg"
+    },
+    "star-icon": {
+      "codepoint": 61698,
+      "source": "icon-test/star-icon.svg"
+    }
+  },
+  "options": {
+    "autowidth": false,
+    "config": "/Users/choover/workspace/sandbox/fontcustom/examples/icons.yml",
+    "css_selector": ".icon-{{glyph}}",
+    "debug": false,
+    "font_name": "ua_font",
+    "force": true,
+    "input": {
+      "templates": "icon-test",
+      "vectors": "icon-test"
+    },
+    "no_hash": false,
+    "output": {
+      "css": "./out/assets/stylesheets",
+      "fonts": "./out/assets/fonts",
+      "preview": "./out/views/styleguide"
+    },
+    "preprocessor_path": "",
+    "quiet": false,
+    "templates": [
+      "css",
+      "preview"
+    ]
+  },
+  "templates": [
+    "./out/assets/stylesheets/ua_font.css",
+    "./out/views/styleguide/ua_font-preview.html"
+  ]
+}

@@ -1,0 +1,24 @@
+# --------------------------------------------------------------------------- #
+# Project Info
+#   Defaults shown. Learn more about these options by running
+#   `fontcustom help` or visiting <http://fontcustom.com>.
+# --------------------------------------------------------------------------- #
+
+font_name: ua_font
+css_selector: .icon-{{glyph}}
+preprocessor_path: ""
+autowidth: false
+no_hash: false
+force: true
+debug: false
+quiet: false
+
+input: icon-test
+# --------------------------------------------------------------------------- #
+# Input Paths
+# --------------------------------------------------------------------------- #
+
+output:
+  fonts: ./out/assets/fonts                              # required
+  css: ./out/assets/stylesheets
+  preview: ./out/views/styleguide

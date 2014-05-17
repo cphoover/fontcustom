@@ -1,0 +1,54 @@
+{
+  "checksum": {
+    "previous": "a0e25fd3ef87797dc09e95872032f7df6f98815afa0ba7ddb08e088b717eac2f",
+    "current": "a0e25fd3ef87797dc09e95872032f7df6f98815afa0ba7ddb08e088b717eac2f"
+  },
+  "fonts": [
+    "./assets/fonts/iconfont_a0e25fd3ef87797dc09e95872032f7df.ttf",
+    "./assets/fonts/iconfont_a0e25fd3ef87797dc09e95872032f7df.svg",
+    "./assets/fonts/iconfont_a0e25fd3ef87797dc09e95872032f7df.woff",
+    "./assets/fonts/iconfont_a0e25fd3ef87797dc09e95872032f7df.eot"
+  ],
+  "glyphs": {
+    "circle-icon": {
+      "codepoint": 61696,
+      "source": "./circle-icon.svg"
+    },
+    "square-icon": {
+      "codepoint": 61697,
+      "source": "./square-icon.svg"
+    },
+    "star-icon": {
+      "codepoint": 61698,
+      "source": "./star-icon.svg"
+    }
+  },
+  "options": {
+    "autowidth": false,
+    "config": "fontcustom.yml",
+    "css_selector": ".icon-{{glyph}}",
+    "debug": false,
+    "font_name": "iconfont",
+    "force": false,
+    "input": {
+      "templates": ".",
+      "vectors": "."
+    },
+    "no_hash": false,
+    "output": {
+      "css": "./assets/stylesheets",
+      "fonts": "./assets/fonts",
+      "preview": "./views/styleguide"
+    },
+    "preprocessor_path": "",
+    "quiet": false,
+    "templates": [
+      "scss",
+      "preview"
+    ]
+  },
+  "templates": [
+    "./assets/stylesheets/_iconfont.scss",
+    "./views/styleguide/iconfont-preview.html"
+  ]
+}
