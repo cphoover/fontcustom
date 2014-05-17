@@ -28,9 +28,13 @@ function fontcustom(options) {
 
 	for(var option in options){
 		if(options.hasOwnProperty(option)){
-			val = options[option].split(" ");
-			addArg("--" + option + "=" + val.pop());
-			val.forEach(addArg);
+			if("boolean" === typeof options[option] && options[option]){
+				addArg("--" + option);
+			} else if("string" === typeof options[option]){
+				val = options[option].split(" ");
+				addArg("--" + option + "=" + val.pop());
+				val.forEach(addArg);
+			}
 		}
 	}
 
