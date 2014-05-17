@@ -1,6 +1,6 @@
 {
   "name": "fontcustom",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "wrapper around fontcustom cli",
   "main": "index.js",
   "dependencies": {
