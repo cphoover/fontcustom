@@ -1,0 +1,17 @@
+{
+  "name": "fontcustom",
+  "version": "0.0.0",
+  "description": "wrapper around fontcustom cli",
+  "main": "index.js",
+  "dependencies": {
+    "bluebird": "^1.2.4",
+    "lodash": "^2.4.1",
+    "which": "^1.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
