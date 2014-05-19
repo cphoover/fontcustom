@@ -5,6 +5,13 @@ The only exception is the ***noisy*** option which specifies if output of the fo
 
 Also with the fontcustom function the default task will be ***compile*** if not specified with a task option. 
 
+
+## Requirements
+* [fontcustom](http://fontcustom.com/#)
+    
+## Installation
+    npm install fontcustom
+    
 ## Usage Example
 
     var fontcustom = require("../");
@@ -67,3 +74,5 @@ As of this writing here are some example fontcustom options:
     });
 
 
+## Aditional Resources
+ For more documentation/info please visit the fontcustom documentation [here](http://fontcustom.com/)
