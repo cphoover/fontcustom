@@ -9,7 +9,7 @@ Also with the fontcustom function the default task will be ***compile*** if not 
 
     var fontcustom = require("../");
 
-    f:qontcustom({
+    fontcustom({
         "config" : __dirname + "/icons.yml",
         "noisy"  : true,
         "force"  : true
