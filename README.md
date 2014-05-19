@@ -17,7 +17,7 @@ Also with the fontcustom function the default task will be ***compile*** if not 
 
 
 ## Promises
-fontcustom returns a A+ compliant promise (bluebird.js).
+fontcustom returns a A+ compliant promise (bluebird.js). The promise is either resolved or rejected depending on the exit code of the fontcustom child process.
 
 ***examle usage with gulp: ***
 
