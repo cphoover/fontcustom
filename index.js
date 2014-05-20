@@ -6,7 +6,7 @@ var Promise  = require("bluebird"),
 
 function fontcustom(options) {
 
-	var promise = Promise.defer(),
+	var deferred = Promise.defer(),
 		task    = options.task  || "compile",
 		noisy   = options.noisy || false,
 		args    = [],
@@ -47,13 +47,13 @@ function fontcustom(options) {
 
 	fp.on("exit", function(code) {
 		if (code) {
-			promise.reject("An error occurred converting svgs to font icon");
+			deferred.reject("An error occurred converting svgs to font icon");
 		} else {
-			promise.resolve();
+			deferred.resolve();
 		}
 	});
 
-	return promise;
+	return deferred.promise;
 }
 
 module.exports = fontcustom;
