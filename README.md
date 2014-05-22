@@ -41,6 +41,9 @@ fontcustom returns a A+ compliant promise (bluebird.js). The promise is either r
 As of this writing here are some example fontcustom options:
 
     fontcustom({
+        task              : "compile"                   ,
+        /** this is the  task to be performed. Defaults to "compile" other options are "config, help, and watch" */
+        
         output            : "./out"                     , 
         /* Where generated files are saved. Set different locations for different file types via a configuration file. */
         
